@@ -40,7 +40,7 @@ function spyCoder(input) {
         
     }
     
-    console.log(text);
+    return(text);
 }
 
 spyCoder("encode: the big brown bear"); // aht bng briwe btor
