@@ -38,7 +38,7 @@ function spyCoder(input) {
         } // j loop
     } // i loop
     
-    return(text);
+    return(text.join(''));
 }
 
 spyCoder("encode: the big brown bear"); // aht bng briwe btor
