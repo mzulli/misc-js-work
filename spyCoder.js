@@ -13,7 +13,6 @@
 // decoding is the reverse procedure. ie, replace 't' with 'e', 'i' with 'o', 
 // 'e' with 'n'.
 
-
 function spyCoder(input) {
     // set up arrays of most common letters and replacements
     var common = ['e', 't', 'a', 'o', 'i', 'n'];
@@ -35,10 +34,9 @@ function spyCoder(input) {
             if (text[i] === common[j]) {
                 text[i] = process[j];
                 break;
-            }
-        }
-        
-    }
+            } // if
+        } // j loop
+    } // i loop
     
     return(text);
 }
